@@ -1,0 +1,449 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* ---------headaer section--------------- */
+.header {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 144, 14, 0.1);
+    display: flex;
+}
+.right_side ul li a:hover{
+    border: chocolate;
+    background-color: #FF900E;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+.Top_side {
+    justify-content: space-between;
+    width: 950px;
+    align-items: center;
+    display: flex;
+}
+
+.left_side {}
+
+.g3_title {
+    width: 302px;
+    height: 53px;
+}
+
+.right_side {}
+
+.right_side li {
+    display: inline;
+    margin-left: 40px;
+    list-style: none;
+}
+
+.right_side li a {
+    font-weight: 700;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+/* ---------------second section------------ */
+.brand_new {
+    width: 950px;
+}
+
+.brand_title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #131313;
+    ;
+}
+
+.brand_info {
+    justify-content: center;
+    display: flex;
+}
+
+.brand_title_short_letter {
+    text-align: center;
+    width: 780px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.explore_more {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #FF900E;
+    ;
+}
+
+.explore_more a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* -------------------
+second section by images
+------------ */
+.brand_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.brand_img img {
+    width: 780px;
+}
+
+
+/* ------------------------------------------------
+             main section
+---------------------------------- */
+.main {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+/* plan section  */
+.plan {
+
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.four_people {
+    display: grid;
+    gap: 10px;
+    margin-top: 50px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.four_people img {
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+/* --------------------------plan right side section-----------------  */
+
+.plan_info {
+    margin-left: 50px;
+    line-height: 20px;
+}
+
+.pvlan_title {
+    font-size: 30px;
+}
+
+.of_our {
+    color: #727272;
+
+}
+
+.features {
+    color: #FF900E;
+
+}
+
+.plan_explore_more {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #FF900E;
+    ;
+}
+
+.plan_explore_more a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+/* -----------------------------------
+future love and enjoy section
+------------------------- */
+.third_section {
+
+    width: 950px;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.future_title {
+
+    display: flex;
+}
+
+.future_side_color {
+    background-color: #FF900E;
+    margin-right: 15px;
+    width: 5px;
+    margin-top: 10px;
+}
+
+.future_title h2 {
+    font-weight: 800;
+    margin: 10px;
+    font-size: 35px;
+}
+
+.info_is_future {
+    color: #727272;
+    font-size: 16px;
+}
+
+.future_head {}
+
+/* future details  */
+.third_section_buttom_future_datails {
+    padding: 5px;
+}
+
+.future_details {
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(201, 201, 201);
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.datails_title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.details_about {
+    color: #727272;
+}
+
+
+/* third section right side image section  */
+
+.future_right_side img {
+    margin-left: 100px;
+    width: 465px;
+    height: 740px;
+
+}
+
+
+/* button section  */
+.experience {
+    margin: -110px;
+    border: 0px;
+    background-color: #FF900E;
+    border-radius: 5px;
+
+}
+
+.experience a {
+    width: 150px;
+    height: 20pxpx;
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------------------some facts------------------ */
+.somefacts {
+    margin-top: 110px;
+    width: 950px;
+}
+
+.somefacts_title {
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.somefacts_info {
+    width: 550px;
+    margin-top: 20px;
+    color: #727272;
+}
+
+/* -----------------some facts------------------- */
+
+
+
+
+
+/* ------------------------------------------------
+                        boxs
+----------------------------------------- */
+
+.boxs {
+    width: 950px;
+    margin: 100px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #FF900E;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    justify-content: space-around;
+    padding: 20px;
+    transition: transform 1s;
+}
+
+section:hover .box {
+    transform: rotate(360deg);
+}
+
+.box_icon,
+.iron_name,
+.number {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.box_icon {
+    margin-bottom: 5px;
+}
+
+.number {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.iron_name {
+    font-weight: 600;
+}
+
+
+
+/* --------------------------------
+            sponspor
+---------------------------- */
+.sponspor {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.Our_Sponspors {
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: center;
+
+
+}
+
+.sponspor_title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.sponspor_info {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    width: 520px;
+}
+
+
+
+
+
+
+/* -------------------------------------
+    brand logo
+----------------------------------- */
+.last_logo {
+    width: 950px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    mix-blend-mode: luminosity;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.logo img {
+    width: 150px;
+    height: 40px;
+}
+
+
+
+
+/* ----------------------footer section--------------------- */
+footer{
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.description {
+    background: #FFF4E7;
+    width: 950px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.description_info {
+
+    font-size: 20px;
+}
+
+/* 1440 px screen quary project completed */

@@ -12,7 +12,8 @@ body {
     background: rgba(255, 144, 14, 0.1);
     display: flex;
 }
-.right_side ul li a:hover{
+
+.right_side ul li a:hover {
     border: chocolate;
     background-color: #FF900E;
     padding: 10px 20px;
@@ -21,11 +22,6 @@ body {
     border-radius: 8px;
 
 }
-
-
-
-
-
 
 .Top_side {
     justify-content: space-between;
@@ -54,6 +50,18 @@ body {
     padding: 10px 20px;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ---------------second section------------ */
@@ -117,6 +125,22 @@ second section by images
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------------------------
              main section
 ---------------------------------- */
@@ -127,6 +151,7 @@ second section by images
     display: flex;
 
 }
+
 
 /* plan section  */
 .plan {
@@ -149,9 +174,6 @@ second section by images
     width: 200px;
     height: 200px;
 }
-
-
-
 
 /* --------------------------plan right side section-----------------  */
 
@@ -188,6 +210,16 @@ second section by images
     font-weight: 600;
     font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -301,6 +333,15 @@ future love and enjoy section
 
 
 
+
+
+
+
+
+
+
+
+
 /* ------------------------------------------------
                         boxs
 ----------------------------------------- */
@@ -361,6 +402,24 @@ section:hover .box {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------------------
             sponspor
 ---------------------------- */
@@ -378,8 +437,6 @@ section:hover .box {
     flex-direction: column;
     margin-bottom: 40px;
     align-items: center;
-
-
 }
 
 .sponspor_title {
@@ -394,6 +451,15 @@ section:hover .box {
     text-align: center;
     width: 520px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -424,12 +490,13 @@ section:hover .box {
 
 
 /* ----------------------footer section--------------------- */
-footer{
+footer {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     display: flex;
 }
+
 .description {
     background: #FFF4E7;
     width: 950px;
@@ -447,3 +514,264 @@ footer{
 }
 
 /* 1440 px screen quary project completed */
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------
+android devices
+-------------------------*/
+@media screen and (max-width: 576px) {
+    .header {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: rgba(255, 144, 14, 0.1);
+        display: flex;
+    }
+
+
+
+    .Top_side {
+        justify-content: space-between;
+        width: 100%;
+        align-items: flex-start;
+        display: flex;
+    }
+
+    .g3_title {
+        width: 80px;
+        justify-content: flex-start;
+    }
+
+    .right_side li {
+        display: flex;
+
+        list-style: none;
+    }
+
+    .right_side li a {
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    /* ---------------brand----------- */
+    .brand_new {
+        width: 100%;
+    }
+
+
+    .brand_title {
+        font-weight: 700;
+        font-size: 30px;
+        flex-direction: column;
+        line-height: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #131313;
+        ;
+    }
+
+    .brand_img img {
+        width: 100%;
+    }
+
+
+    /* --------------------main section------------- */
+    .main {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .plan {
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+
+    .four_people {
+        display: grid;
+        gap: 10px;
+        margin-top: 50px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .four_people img {
+        border-radius: 8px;
+        width: 300px;
+        height: 300px;
+    }
+
+
+
+
+
+
+
+
+    /* ----------------------------future love and enjoy section----------------- */
+    .third_section {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+        display: flex;
+
+    }
+
+    .future_right_side img {
+        width: 100%;
+    }
+
+    .third_section_buttom_future_datails {
+        padding: 10px;
+    }
+
+
+    /* --------------some facts------------- */
+    .somefacts {
+        margin-top: 110px;
+        width: 100%;
+    }
+
+    .somefacts_title {
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+
+    }
+
+    .somefacts_info {
+        display: flex;
+        text-align: center;
+
+        width: 350px;
+        margin-top: 20px;
+        color: #727272;
+    }
+
+
+    /* box section  */
+    .boxs {
+        width: 100%;
+        margin: 100px 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box {
+        width: 250px;
+        margin-bottom: 10px;
+        height: 250px;
+        border: 4px solid #FF900E;
+        flex-direction: column;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 25px;
+
+    }
+
+    .number {
+        margin-bottom: 20px;
+    }
+
+
+    /* ------------------sponspors--------------- */
+
+    .Our_Sponspors {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sponspor_title {
+        justify-content: center;
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    .sponspor_info {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* -----------------brand logo--------------- */
+    .last_logo {
+        width: 100%;
+    }
+    .future_right_side img {
+        margin-left: 0px;
+        width: 100%;
+        height: 300px;
+    
+    }
+    
+    .logo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .logo img {
+        width: 150px;
+        height: 40px;
+    }
+
+
+
+
+/* ------------------------some facts------------------ */
+footer{
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.description {
+    background: #FFF4E7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+
+.description_info {
+
+    font-size: 20px;
+}
+}
